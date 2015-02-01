@@ -1,0 +1,165 @@
+<html>
+<head>
+	<title>Try</title>
+	<style type="text/css">
+	body {
+  color: #fff;
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  margin: 12px 15px;
+}
+.original,
+.box {
+  border-radius: 6px;
+}
+.original {
+	position: absolute;
+  background: #eaeaed;
+  border: 1px dashed #cecfd5;
+  width: 95px;
+  margin: 12px 15px;
+}
+.box {
+  background: #2db34a;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  width: 95px;
+}
+.spin {
+  cursor: pointer;
+  /* Rotate div */
+   
+    -webkit-transform-style: preserve-3d; /* Chrome, Safari, Opera */
+     -moz-transform-style: preserve-3d; /* IE 9 */
+    -o-transform-style:preserve-3d;
+    transform-style: preserve-3d;
+}
+.spin:hover {
+    
+
+    -webkit-animation: spin 5s linear infinite; /* Chrome, Safari, Opera */
+    -moz-animation: spin 5s linear infinite; /* IE 9 */
+    -ms-animation: spin 5s linear infinite;
+    -o-animation:spin 5s linear infinite;
+    animation: spin 5s linear infinite;
+    
+}
+
+
+@-webkit-keyframes spin {
+   0% {
+   
+    -webkit-transform: rotateY(0deg); /* Chrome, Safari, Opera */
+    -moz-transform: rotateY(0deg); /* IE 9 */
+    
+    -o-transform:rotateY(0deg);
+     transform: rotateY(0deg);
+  }
+  100% {
+    
+    -webkit-transform: rotateY(360deg); /* Chrome, Safari, Opera */
+    -moz-transform: rotateY(360deg); /* IE 9 */
+    
+    -o-transform:rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@-moz-keyframes spin {
+   0% {
+   
+    -webkit-transform: rotateY(0deg); /* Chrome, Safari, Opera */
+    -moz-transform: rotateY(0deg); /* IE 9 */
+    
+    -o-transform:rotateY(0deg);
+     transform: rotateY(0deg);
+  }
+  100% {
+    
+    -webkit-transform: rotateY(360deg); /* Chrome, Safari, Opera */
+    -moz-transform: rotateY(360deg); /* IE 9 */
+    
+    -o-transform:rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@-ms-keyframes spin {
+   0% {
+   
+    -webkit-transform: rotateY(0deg); /* Chrome, Safari, Opera */
+    -moz-transform: rotateY(0deg); /* IE 9 */
+    
+    -o-transform:rotateY(0deg);
+     transform: rotateY(0deg);
+  }
+  100% {
+    
+    -webkit-transform: rotateY(360deg); /* Chrome, Safari, Opera */
+    -moz-transform: rotateY(360deg); /* IE 9 */
+    
+    -o-transform:rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@-o-keyframes spin {
+  0% {
+   
+    -webkit-transform: rotateY(0deg); /* Chrome, Safari, Opera */
+    -moz-transform: rotateY(0deg); /* IE 9 */
+    
+    -o-transform:rotateY(0deg);
+     transform: rotateY(0deg);
+  }
+  100% {
+    
+    -webkit-transform: rotateY(360deg); /* Chrome, Safari, Opera */
+    -moz-transform: rotateY(360deg); /* IE 9 */
+    
+    -o-transform:rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+   
+    -webkit-transform: rotateY(0deg); /* Chrome, Safari, Opera */
+    -moz-transform: rotateY(0deg); /* IE 9 */
+    
+    -o-transform:rotateY(0deg);
+     transform: rotateY(0deg);
+  }
+  100% {
+    
+    -webkit-transform: rotateY(360deg); /* Chrome, Safari, Opera */
+    -moz-transform: rotateY(360deg); /* IE 9 */
+    
+    -o-transform:rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+
+.box-2 {
+  /* Rotate div */
+  -webkit-transform: rotate(-55deg); /* Chrome, Safari, Opera */
+    -moz-transform: rotate(-55deg); /* IE 9 */
+    
+    -o-transform:rotate(-55deg);
+    transform: rotate(-55deg);
+}
+	</style>
+</head>
+<body>
+
+
+<div class="original">
+  <div class="spin">
+    <img class="box box-2" src="images/logo_hand.PNG">
+  </div>
+</div>
+</body>
+</html> 
+

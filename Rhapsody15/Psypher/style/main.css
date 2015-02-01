@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header
+{
+	background-color:rgba(89,45,0,0.3);
+	padding:20px;
+	height:40px; 
+	width:100%; 
+	border:none; 
+	position:fixed; 
+	left:0px; 
+	top:0px;
+	right:0px;
+	z-index:+100;
+}
+
+body
+{
+	background-color:#000;
+	padding:none; 
+	margin:0px
+}
+
+#logo
+{
+	float:right; 
+	position:relative; 
+	right:55px;
+	height:45px;
+}

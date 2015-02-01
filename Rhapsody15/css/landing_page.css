@@ -1,0 +1,127 @@
+#bg { 
+	position: fixed; 
+	top: 0; 
+	left: 0;
+	width: 100%;
+	height: auto;
+ }
+ #sap { 
+	position: fixed; 
+	top: 80%; 
+	left: 70%;
+	width: 20%;
+	height: 40%;
+	opacity: 1;
+ }
+#sky-fixed { 
+	position: fixed; 
+	top: 0; 
+	left: 0;
+	width: 100%;
+	height: auto;
+	opacity: 0.6;
+ }
+#cloud_1 { 
+	position: fixed; 
+	top: 0; 
+	left: 0;
+	width: 30%;
+	height: auto;
+	opacity: 0.8;
+ }
+ #cloud_2 { 
+	position: fixed; 
+	top: 0; 
+	left: 35%;
+	width: 30%;
+	height: auto;
+	opacity: 0.8;
+ }
+  #cloud_3 { 
+	position: fixed; 
+	top: 0; 
+	left: 65%;
+	width: 40%;
+	height: auto;
+	opacity: 0.8;
+ }
+   #cloud_4 { 
+	position: fixed; 
+	top: 30%; 
+	left: 0;
+	width: 30%;
+	height: auto;
+	opacity: 0.8;
+ }
+   #cloud_5 { 
+	position: fixed; 
+	top: 20%; 
+	left: 35%;
+	width: 40%;
+	height: auto;
+	opacity: 0.8;
+ }
+   #cloud_6 { 
+	position: fixed; 
+	top: 35%; 
+	left: 75%;
+	width: 25%;
+	height: auto;
+	opacity: 0.8;
+ }
+    #logo_hand { 
+	position: fixed; 
+	top: 14.5%; 
+	left: 13.5%;
+	width: 10%;
+	height: auto;
+	opacity: 1;
+ }
+    #logo_text { 
+	position: fixed; 
+	top: 11%; 
+	left: 21%;
+	width: 60%;
+	height: auto;
+	opacity: 1;
+ }
+    #gate_centre { 
+	position: fixed; 
+	top: 55%; 
+	left: 27%;
+	width: 45%;
+	height: auto;
+	opacity: 1;
+ }
+   #wall_left { 
+	position: fixed; 
+	top: 55%; 
+	left: 14.5%;
+	width: 25%;
+	height: 70%;
+	opacity: 0.8;
+ }
+ #wall_right { 
+	position: fixed; 
+	top: 55%; 
+	left: 59%;
+	width: 25%;
+	height: 70%;
+	opacity: 0.8;
+ }
+    #tower_left { 
+	position: fixed; 
+	top: 14.5%; 
+	left: 13.5%;
+	width: 10%;
+	height: auto;
+	opacity: 1;
+ }
+    #tower_right { 
+	position: fixed; 
+	top: 11%; 
+	left: 21%;
+	width: 60%;
+	height: auto;
+	opacity: 1;
+ }

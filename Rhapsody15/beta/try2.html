@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<title>Try 2</title>	
+   <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/skrollr.js"></script>
+  <script src="js/try2.js"></script>
+  <script src="js/imagesloaded.js"></script>
+  <style type="text/css">
+    .bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    position: fixed; 
+   /* top: 55%; 
+    left: -2.5%;
+    width: 105%;
+    height: auto;
+    opacity: 1;*/
+    background-image:url('images/building.png');
+}
+/* Slide 1 */
+body, html {
+ background-color: #000000;
+ opacity: 1;
+}
+
+#preloader {
+  display: none;
+  width: 1px;
+  height: 1px;
+  visibility: none;
+}
+.loading {
+  background: url('images/loading.gif') no-repeat center center;  
+}
+.loading main {
+  background: none;
+}
+section {
+  opacity: 0;
+}
+.loaded section,
+.no-js section 
+{
+  opacity: 1;
+  -webkit-transition: opacity 300ms ease-out;
+  -moz-transition: opacity 300ms ease-out;
+  transition: opacity 300ms ease-out;
+}
+main {
+  overflow-x: hidden;
+}
+  </style>
+
+</head>
+<body class="loading">
+
+  <div id="preloader">
+          <img src="images/building.png" />
+  </div>
+
+    <main>
+
+        <section id="slide-1" class="homeSlide">
+            <div class="bcg" data-0="opacity: 0.7; width: 100%; height: 60%; top: 55%; left: 0%;" data-100="opacity: 1; width: 156%; height: 100%; top: 40%; left: -28%;" data-anchor-target="#slide-1">
+              <a href="../archives">Archives</a>
+            </div>
+
+               <div class="plaxEl" data-0p-top="opacity: 0" data-center="opacity: 1;" data-100p-top="opacity: 1; position: fixed; top: 206px; width: 100%; left: 0;" data--25p-bottom="opacity: 0;" data--20p-bottom="opacity: 1;" data-anchor-target="#slide-1">
+                  <h2>Rhapsody 15 </h2>
+                  <p> The Spring Cultural Fest of IIT Roorkee</p>
+               </div>
+
+        </section>
+
+    </main>
+
+ 
+</body>
+</html> 
+

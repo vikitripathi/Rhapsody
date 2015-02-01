@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color:#000;
+}
+
+#logoiitr
+{
+	float:left;
+	padding-left:10px;
+	padding-top:10px;
+	color:#FFF;
+	font-family:calibri;
+	font-size:10px
+}
+
+#logorhap
+{
+	float:right;
+	padding-right:10px;
+	padding-top:10px;
+	color:#FFF;
+	font-family:calibri;
+	font-size:10px
+}
+
+#psypher
+{
+	float:none;
+	width:100%;
+	position:relative;
+	top:20px
+}
+
+#footer
+{
+	height:120px; 
+	width:100%;  
+	border:none; 
+	position:fixed; 
+	left:0px; 
+	bottom:0px;	
+}
+
+#main
+{
+	height:500px;
+}
+
+#coming
+{
+	position:relative;
+	right:20px;
+	bottom:10px;
+	padding:0px;
+	color:#FFF;
+	float:left;
+	width:100%;
+	font-family:Roboto;
+	font-size:24px;
+
+}
