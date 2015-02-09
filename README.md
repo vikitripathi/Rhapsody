@@ -2,6 +2,6 @@
 The Spring fest of IIT Roorkee
 
 
-Next Tasks->
+### ToDo
 
-implement fb signup/login use sdk-v-4.0
+- [ ] Implement facebook login
