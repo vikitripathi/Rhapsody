@@ -1,5 +1,7 @@
 # Rhapsody15
-The Spring fest of IIT Roorkee
+The Spring fest of IIT Roorkee.
+
+http://vikitripathi.github.io/Rhapsody
 
 
 ### ToDo
